@@ -2,13 +2,13 @@
     <h1 id="title">Let me know how I'm doing!</h1>
     <p id="description">Give me feedback on my coding progress in the form below.</p>
     <form id="survey-form">
-        <label for="name" id="name-label">Name:</label>
-        <input type="text" id="name" placeholder="Enter your name" required>
-        <label for="email" id="email-label">Email:</label>
-        <input type="email" id="email" placeholder="Enter your email" required>
-        <label for="number" id="number-label">Age (optional):</label>
-        <input type="number" id="number" placeholder="Enter your age">
-        <label for="dropdown" id="dropdown-label">Which option best describes your position?</label>
+        <label for="name" id="name-label">Name:</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required><br>
+        <label for="email" id="email-label">Email:</label><br>
+        <input type="email" id="email" placeholder="Enter your email" required><br>
+        <label for="number" id="number-label">Age (optional):</label><br>
+        <input type="number" id="number" placeholder="Enter your age"><br>
+        <label for="dropdown" id="dropdown-label">Which option best describes your position?</label><br>
         <select id="dropdown" required>
             <option value="none" selected disabled hidden>Select your role</option>
             <option value="student">Student</option>
@@ -16,18 +16,18 @@
             <option value="learner">Full-time Learner</option>
             <option value="na">Prefer not to say</option>
             <option value="other">Other</option>
-        </select>
-        <label for="qualified">Would you say I'm qualified to accept a position?</label>
+        </select><br>
+        <label for="qualified">Would you say I'm qualified to accept a position as a software engineer?</label><br>
         <label for="yes"><input type="radio" id="yes" name="qualified" checked>Yes</label>
         <label for="no"><input type="radio" id="no" name="qualified">No</label>
-        <label for="unsure"><input type="radio" id="unsure" name="qualified">Unsure</label>
-        <label for="improvement">What can I improve on?</label>
+        <label for="unsure"><input type="radio" id="unsure" name="qualified">Unsure</label><br>
+        <label for="improvement">What can I improve on?</label><br>
         <label for="frontend"><input type="checkbox" id="frontend" name="improvement">Frontend Development</label>
         <label for="coding"><input type="checkbox" id="coding" name="improvement">General Coding</label>
         <label for="full-stack"><input type="checkbox" id="full-stack" name="improvement">Full Stack Development</label>
-        <label for="security"><input type="checkbox" id="security" name="improvement">Security</label>
-        <label for="comments">Additional Comments (optional):</label>
-        <textarea id="comments">Type here</textarea>
+        <label for="security"><input type="checkbox" id="security" name="improvement">Security</label><br>
+        <label for="comments">Additional Comments (optional):</label><br>
+        <textarea id="comments">Type here</textarea><br>
         <button type="submit" id="submit">Submit</button>
     </form>
 </body>
